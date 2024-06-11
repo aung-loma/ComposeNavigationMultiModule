@@ -108,7 +108,7 @@ internal fun HomeScreen(
 
             articlesScreen(drawerState, onNavigateToArticle)
 
-            settingsScreen(drawerState)
+            settingsScreen(drawerState,navController = navController)
 
             aboutScreen(drawerState)
 
